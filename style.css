@@ -1,14 +1,25 @@
 body{
     font-family: 'Mochiy Pop P One', sans-serif;
+    margin: 0px;
 }
 
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name_highlight{
     
     color: orange;
 
+}
+p{
+    color: dimgray;
+}
+
+.death{
+    color: red;
 }
 
 .half_width{
@@ -22,3 +33,45 @@ h1{
     width: 100%;
 
 }
+.top_bg{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+
+.link_button1{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightblue , rgb(80, 118, 190));
+    padding: 10px 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+    color: blue;
+    font-size: 700;
+    float: bottom ;
+}
+.dream_area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+}
+
+.box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 60%;
+     
+}
+.exp_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+
